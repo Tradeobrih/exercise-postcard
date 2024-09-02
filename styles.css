@@ -1,0 +1,46 @@
+body {
+    background-color:rgb(43, 39, 39);
+    margin-top: 4%;
+    margin-bottom: 2%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+p {
+    color: rgb(17, 14, 14);
+    font-size: 23px;
+}
+.caja {
+    background-color: aliceblue;
+    margin: 10%;
+    padding: 2%;
+}
+.container {
+    position: relative;
+            }            
+.id_1 {
+    position: absolute;
+    top: 38px;
+    left: 16px;
+    
+}            
+.id_2 {
+    position: absolute;
+    top: 8px;
+    right: 30px;
+    font-size: 18px;
+} 
+.container_2_1, .container_2_2{
+    display: inline-block;
+}
+.container_2_1{
+   width: 40%;
+}
+.container_2_2{
+   width: 20%;
+   margin-left: 30%;
+   font-size:larger;
+}
+.container_3{
+    display: flex;
+    justify-content: center;
+}

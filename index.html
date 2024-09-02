@@ -3,75 +3,37 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Postal Digital</title> <!-- Titulo de la pagina web-->
-        <style>
-            body {
-                font-family: cursive,ssans-serif;
-                margin-top: 4%;
-                margin-bottom: 2%;
-                margin-right: 20%;
-                margin-left: 20%;
-            }
-            p {
-              color: rgb(5, 1, 1);
-              font-size: 23px;
-            }
-            .container {
-            position: relative;
-            }            
-            .id_1 {
-                position: absolute;
-                top: 38px;
-                left: 16px;
-            }            
-            .id_2 {
-                position: absolute;
-                top: 8px;
-                right: 70px;
-                font-size: 18px;
-            }       
-            .container_2_1, .container_2_2{
-                display: inline-block;
- 
-            }
-            .container_2_2{
-                margin-bottom: 5%;
-                margin-left: 25%;
-                width: 300px;
-                height: 300px;
-            }
-            .container_3{
-                display: flex;
-                justify-content: center;
-            }
-            </style>
+        <title>Postal Digital</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
+    <div class="caja">   
         <div class="container">
             <h1>My Postcard</h1>
-            <img class="id_2" src="Logo_4geeks.png" alt="Imagen" width="75" height="70">
+            <img class="id_2" src="Imagenes/Logo_4geeks.png" alt="Imagen" width="75" height="70">
         </div>
         <br>
-        <br> <!-- Para saltarse de linia-->
+        <br> 
         <br>
         <div class="container_2">
             <div class="container_2_1"> 
-                <p>Look how awesome!This is a</p> 
-                <p>Postcard That I created usigng</p>
-                <p>HTML5 and CSS3 during my</p>
-                <p>4 Geeks Academy course!</p> 
+                <p>Look how awesome!This is a 
+                Postcard That I created usigng
+                HTML5 and CSS3 during my
+                4 Geeks Academy course!</p> 
                 <br>
-                <p>This is cool, cant wait to</p>
-                <p>Start doing more stuff</p>
+                <p>This is cool, cant wait to
+                start doing more stuff</p>
            </div>
             <div class="container_2_2"> 
-                <p>Some Name</p><hr>
-                <p>Some Email</p><hr>
-                <p>Some comment</p><hr>
+                <input>Some Name</input>
+                <input>Some Email</input>
+                <input>Some comment</input>
            </div>            
         </div>
-        <div3 class="container_3"> <!-- Boton  -->
+        <div class="container_3">
                 <button>Send My Postcard</button>
-        </div3>
+        </div>
+    </div> 
     </body>
 </html>
